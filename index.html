@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset = "UTF - 8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        
+        <title>Pattern Printer</title>
+        
+        <link rel = "icon" href = "logo.png">
+        <link rel = "stylesheet" href = "style-light.css">
+    </head>
+
+    <body>
+        <header>
+            <div id = "logo-title-container">
+                <img id = "site-logo" src = "logo.png" alt = "Site Logo" class = "header-item">
+                <span id = "site-title" class = "header-item">Pattern Printer</span>
+            </div>
+
+            <button id = "theme-button" class = "header-item">🌙</button>
+        </header>
+
+        <main>
+            <div id = "app-container">
+                <span id = "disclaimer" hidden>This Pattern is Generated using mono-space font. Results may vary on different fonts!</span>
+                
+                <div id = "pattern-display">
+                    <span id = "generated-pattern">Pattern will display here!</span>
+                </div>
+
+                <div id = "form-container">
+                    <input type = "number" id = "number-1" class = "input-control" placeholder = "Enter a Number">
+                    <select id = "pattern-selector" class = "input-control">
+                        <option value = "0">Kindly Select a Pattern</option>
+                        <option value = "1">Square Pattern</option>
+                        <option value = "2">Triangle Pattern</option>
+                        <option value = "3">Daimond Pattern</option>
+                    </select>
+                </div>
+
+                <div id = "action-buttons-container">
+                    <button class = "button-control">Generate</button>
+                    <button class = "button-control">Clear</button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
