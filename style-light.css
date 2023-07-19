@@ -73,7 +73,8 @@ main {
 }
 
 #app-container {
-    height: 62vh;
+    min-height: 62vh;
+    max-height: fit-content;
     width: 60%;
 
     display: flex;
