@@ -9,6 +9,7 @@
 
 body {
     background-color: #eee;
+    transition: background 1s cubic-bezier(0,1.01,.31,1);
 }
 
 /* Header Section */
@@ -21,6 +22,8 @@ header {
 
     background: white;
     box-shadow: 0 0 10px 0 #00000027;
+
+    transition: background 1s cubic-bezier(0,1.01,.31,1);
 }
 
 .header-item {
@@ -40,6 +43,7 @@ header {
     font-weight: 600;
     font-size: 30px;
     color: #222;
+    transition: color 1s cubic-bezier(0,1.01,.31,1);
 }
 
 #theme-button {
@@ -114,6 +118,8 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.432);
     border-radius: 10px;
     padding: 0 10px;
+    transition: color 1s cubic-bezier(0,1.01,.31,1);
+    transition: background 1s cubic-bezier(0,1.01,.31,1);
 }
 
 #action-buttons-container {

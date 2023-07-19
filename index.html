@@ -8,7 +8,7 @@
         <title>Pattern Printer</title>
         
         <link rel = "icon" href = "logo.png">
-        <link rel = "stylesheet" href = "style-light.css">
+        <link rel = "stylesheet" href = "style-light.css" id = "style-sheet">
     </head>
 
     <body>
@@ -18,7 +18,7 @@
                 <span id = "site-title" class = "header-item">Pattern Printer</span>
             </div>
 
-            <button id = "theme-button" class = "header-item">🌙</button>
+            <button id = "theme-button" class = "header-item" value = "light" onclick = "changeTheme()">🌙</button>
         </header>
 
         <main>
@@ -45,5 +45,7 @@
                 </div>
             </div>
         </main>
+
+        <script src = "script.js"></script>
     </body>
 </html>
