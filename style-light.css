@@ -120,6 +120,7 @@ main {
     padding: 0 10px;
     transition: color 1s cubic-bezier(0,1.01,.31,1);
     transition: background 1s cubic-bezier(0,1.01,.31,1);
+    transition: border 1s cubic-bezier(0,1.01,.31,1);
 }
 
 #action-buttons-container {
